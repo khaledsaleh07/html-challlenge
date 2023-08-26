@@ -31,4 +31,47 @@ body {
     border: none;
 }
 
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
 
+main {
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.left-div {
+    flex: 1;
+}
+
+.left-div h2 {
+    margin-left: 20%;
+}
+
+.right-div {
+    flex: 3;
+    margin-left: 10px;
+}
+
+.in-right-div {
+    display: flex;
+}
+
+.sub-article {
+    border-right: solid aqua;
+    padding: 2%;
+}
+
+.sub-article:last-child {
+    border: none;
+}
+
+.btn {
+    padding: 1% 1.5%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3%;
+}
