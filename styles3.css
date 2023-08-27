@@ -5,12 +5,14 @@ body {
 
 .header-hero {
     background-image: url("atom.jpeg");
+    opacity: 0.8;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10%;
     margin-top: 20px;
     font-size: large;
 }
+
 
 .nav-bar {
     display: flex;
